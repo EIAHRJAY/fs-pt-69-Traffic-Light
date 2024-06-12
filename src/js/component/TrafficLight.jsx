@@ -4,6 +4,8 @@ function TrafficLight() {
     const [color, setColor] = useState("red");
   
     return (
+      
+        
       <div className="traffic-light">
         <div
           className={`light red ${color === 'red' ? 'selected' : ''}`}
@@ -18,6 +20,7 @@ function TrafficLight() {
           onClick={() => setColor('green')}
         ></div>
       </div>
+   
     );  
   }
 

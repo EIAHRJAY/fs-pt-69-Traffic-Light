@@ -7,6 +7,7 @@ import TrafficLight from "./TrafficLight";
 const Home = () => {
 	return (
 		<div >
+			
 			<TrafficLight/>
 		</div>
 	);
